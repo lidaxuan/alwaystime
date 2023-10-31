@@ -4,11 +4,10 @@
  * @Date: 2023-10-30 11:17:25
  * @FilePath: /alwaystime/alwaystime.js
  * @LastEditors: 李大玄
- * @LastEditTime: 2023-10-30 11:46:49
+ * @LastEditTime: 2023-10-31 14:15:48
  */
 
 "use strict";
-
 
 const guid = () => {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
@@ -47,8 +46,7 @@ export const removeAlwaysHook = function (key) {
 };
 
 
-export const alwaysHookSize = function (key) {
-  console.log(Hook.size)
+export const alwaysHookSize = function () {
   return Hook.size;
 };
 
